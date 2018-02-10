@@ -155,4 +155,4 @@ var container = J$('body').append('div',{'class':'container'}).css({
 
 
 ### Result Demo
-<iframe src="https://bichiko.github.io/JavaScript-API/demo.html" width="auto" frameborder="0" ></iframe>
+<iframe src="https://bichiko.github.io/JavaScript-API/demo.html" style="width:100%;" frameborder="0" ></iframe>
