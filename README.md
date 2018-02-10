@@ -9,15 +9,16 @@
 
 *Functions*
 
-```
-	J$(element/object).append(elementTagName, ebjectOfAttributes, numberOfElements)
+```javascript
 
-	J$(element/object).css(objectOfCssStyles)
-	
-	J$(element/object).val(value)
+J$(element/object).append(elementTagName, ebjectOfAttributes, numberOfElements)
 
-	J$(element/object).html(html)
+J$(element/object).css(objectOfCssStyles)
 
-	J$(element/object).on(eventName, function)
+J$(element/object).val(value)
+
+J$(element/object).html(html)
+
+J$(element/object).on(eventName, function)
 
 ```
