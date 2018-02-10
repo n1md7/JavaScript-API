@@ -11,15 +11,15 @@
 
 ```javascript
 
-J$(element/object).append(elementTagName, ebjectOfAttributes, numberOfElements)
+J$(element).append(elementTagName, ebjectOfAttributes, numberOfElements)
 
-J$(element/object).css(objectOfCssStyles)
+J$(element).css(objectOfCssStyles)
 
-J$(element/object).val(value)
+J$(element).val(value)
 
-J$(element/object).html(html)
+J$(element).html(html)
 
-J$(element/object).on(eventName, function)
+J$(element).on(eventName, function)
 
 ```
 
@@ -72,17 +72,27 @@ J$('body').append('input',{
 
 <hr>
 
-### Code#3
+### Code#4
 ```javascript
-J$('body').append('input',3,{'type':'text'});
+var outerDiv = J$('body').append('div')
+var buttons = J$(outerDiv.child).append('button', 2).html('<b>Click me!</b>')
+
+//or
+var outerDiv = J$('body').append('div')
+	,buttons = J$(outerDiv.child).append('button', 2).html('<b>Click me!</b>')
 ```
 
 
 ### Result
 ```html
 <body>
-	<input type="text">
-	<input type="text">
-	<input type="text">
+	<div>
+		<button>
+			<b>Click me!</b>
+		</button>
+		<button>
+			<b>Click me!</b>
+		</button>
+	</div>
 </body>
 ```
