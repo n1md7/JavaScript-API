@@ -1,13 +1,13 @@
 # Java-Script-API
 
-##Supports
+## Supports
 
 * Element styles with css syntax
 * Create HTML elements with their attributes
 * Get/Set html and attribute value
 * Bind one or multiple events
 
-##Functions
+## Functions
 
 ```javascript
 
@@ -23,9 +23,9 @@ J$(element/object).on(eventName, function)
 
 ```
 
-##Examples
+## Examples
 
-###Code
+### Code
 ```javascript
 // Example#1
 J$('body').append('input');
@@ -33,15 +33,15 @@ J$('body').append('input');
 J$(document.body).append('input');
 ```
 
-##Results
+## Results
 
-###Before
+### Before
 ```html
 <body>
 </body>
 ```
 
-###After
+### After
 ```html
 <body>
 	<input>
