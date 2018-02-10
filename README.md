@@ -23,6 +23,14 @@ J$(element).on(eventName, function)
 
 ```
 
+
+## How to include in my document?
+```html
+<script type="text/javascript" src="https://bichiko.github.io/JavaScript-API/script.js"></script>
+```
+<p>Copy/Paste inside your `<head>` adn you are ready to go!</p>
+
+<hr>
 ## Examples
 
 ### Code#1
