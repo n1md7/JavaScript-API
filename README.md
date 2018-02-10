@@ -25,12 +25,9 @@ J$(element/object).on(eventName, function)
 
 ## Examples
 
-### Code
+### Code#1
 ```javascript
-// Example#1
 J$('body').append('input');
-// Example#2
-J$(document.body).append('input');
 ```
 
 ## Results
@@ -45,5 +42,30 @@ J$(document.body).append('input');
 ```html
 <body>
 	<input>
+</body>
+```
+
+
+### Code#2
+```javascript
+J$('body').append('input',{
+	'value':'new one',
+	'type':'text',
+	'class':'mylcass',
+	'name':'myname',
+	'id':'myid',
+	'data-val':'someval'
+}).css({
+	'padding':'10px 20px',
+	'margin':'5px 10px',
+	'color':'rgba(255,0,0,0.6)'
+});
+```
+
+
+### Result
+```html
+<body>
+	<input value="new one" type="text" class="mylcass" name="myname" id="myid" data-val="someval" style="padding: 10px 20px; margin: 5px 10px; color: rgba(255, 0, 0, 0.6);">
 </body>
 ```
