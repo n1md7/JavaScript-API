@@ -114,7 +114,7 @@ var outerDiv = J$('body').append('div')
 var container = J$('body').append('div',{'class':'container'}).css({
 		'position':'relative',
 		'margin':'auto',
-		'width':'80%',
+		'width':'100%',
 		'border':'solid 1px rgba(255,0,0,0.2)',
 		'border-radius':'3px',
 		'box-sizing':'border-box',
@@ -155,4 +155,4 @@ var container = J$('body').append('div',{'class':'container'}).css({
 
 
 ### Result Demo
-<iframe src="https://bichiko.github.io/JavaScript-API/demo.html" frameborder="0" style="width: 100%;"></iframe>
+<iframe src="https://bichiko.github.io/JavaScript-API/demo.html" frameborder="0" ></iframe>
