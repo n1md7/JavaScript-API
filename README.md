@@ -1,13 +1,13 @@
 # Java-Script-API
 
-*Supports*
+##*Supports*
 
 * Element styles with css syntax
 * Create HTML elements with their attributes
 * Get/Set html and attribute value
 * Bind one or multiple events
 
-*Functions*
+##*Functions*
 
 ```javascript
 
@@ -22,3 +22,6 @@ J$(element/object).html(html)
 J$(element/object).on(eventName, function)
 
 ```
+
+
+
