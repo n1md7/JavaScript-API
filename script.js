@@ -16,7 +16,6 @@ window.J$ = (function(wndw, ctx, find){
 				case typeof arg === 'object':attribs  = arg; break
 			}
 		})
-
 		this.parent.forEach(function(e){
 			for(var t = 0; t < quantity; t ++){
 				var newBorn = context.createElement(element)
@@ -27,7 +26,6 @@ window.J$ = (function(wndw, ctx, find){
 		}, this)
 		return this
 	}
-
 	this.css = c => {
 		this.child.length == 0?
 			undefined !== c? 
@@ -47,7 +45,6 @@ window.J$ = (function(wndw, ctx, find){
 				(this.child.forEach(x => x.value = v), this):this.child[0].value
 
 	}
-
 	this.html = h => {
 		return this.child.length == 0?
 			undefined !== h?
@@ -55,7 +52,6 @@ window.J$ = (function(wndw, ctx, find){
 			undefined !== h?
 				(this.child.forEach(x => x.innerHTML = h), this):this.child[0].innerHTML
 	}
-
 	this.on = (e,f) => {
 		this.child.length == 0?
 			(undefined !==this.parent[0]?this.parent:[this.parent]).forEach(x => x.addEventListener(e,f)):
